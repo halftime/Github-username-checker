@@ -47,7 +47,8 @@ class github_checker:
                     self.out_file.write(s + "\n")
                     self.out_file.flush()
             else:
-                sys.stderr.write("Already taken github:\t{0}\n".format(s))
+                with self.lock:
+                    sys.stderr.write("Already taken github:\t{0}\n".format(s))
 
 
     def start_threads(self, threadcount):
