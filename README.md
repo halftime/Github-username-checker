@@ -2,7 +2,7 @@
 
 Multithreaded github username checker
 
-## Examples found:
+### Examples found:
 
 ![example found github](https://i.imgur.com/598ipUA.png)
 
