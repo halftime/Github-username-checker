@@ -2,6 +2,10 @@
 
 Multithreaded github username checker
 
+## Examples found:
+
+![example found github](https://i.imgur.com/598ipUA.png)
+
 ## Prerequisites
 
 * Python 3
